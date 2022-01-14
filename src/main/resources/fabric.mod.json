@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "smoking-magma",
+  "version": "${version}",
+  "name": "Smoking Magma",
+  "description": "Makes magma blocks with water underneath smoke",
+  "authors": [
+    "BravelyPeculiar"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/smoking_magma/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.github.bravelypeculiar.smokingmagma.SmokingMagmaMod"
+    ]
+  },
+  "mixins": [
+    "smokingmagma.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "minecraft": "1.18.1"
+  }
+}
