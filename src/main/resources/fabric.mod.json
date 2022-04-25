@@ -3,7 +3,7 @@
   "id": "smoking-magma",
   "version": "${version}",
   "name": "Smoking Magma",
-  "description": "Makes magma blocks with water underneath smoke",
+  "description": "Adds a magma block variant that emits smoke like campfires",
   "authors": [
     "BravelyPeculiar"
   ],
@@ -20,7 +20,7 @@
     "smokingmagma.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.12.12",
-    "minecraft": "1.18.1"
+    "fabricloader": ">=0.13.2",
+    "minecraft": "1.18.2"
   }
 }
